@@ -25,7 +25,7 @@ public class RestApiController {
 	@RequestMapping(value = "/user/", method = RequestMethod.GET)
 	public ResponseEntity<List<User>> listAllUsers() {
 		List<User> users = new ArrayList<User> (3);
-		User u1 = new User (0, "Dilbert", 23, 3000);
+		User u1 = new User (0, "Dilbert", 23, 40000);
 		User u2 = new User (0, "Ashok", 18, 6000);
 		User u3 = new User (0, "Catbert", 34, 30000);
 		User u4 = new User (0, "Alice", 25, 9000);
